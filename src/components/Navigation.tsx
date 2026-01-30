@@ -61,7 +61,7 @@ export const Navigation = () => {
             </a>
             <button
               onClick={toggleTheme}
-              className="bg-transparent text-slate-500 dark:text-slate-400 hover:text-amber-500 dark:hover:text-yellow-400 transition-colors border-none"
+              className="bg-transparent text-slate-500 dark:text-slate-400 hover:text-pink-500 dark:hover:text-pink-400 transition-colors border-none"
               title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
             >
               {theme === 'dark' ? (
