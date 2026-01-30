@@ -1,10 +1,8 @@
 export const Header = () => {
   return (
-    <header className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-16 bg-white dark:bg-background-start transition-colors">
+    <header className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-20 bg-white dark:bg-background-start transition-colors">
       <div className="absolute inset-0 z-[-2]"></div>
       <div className="absolute inset-0 bg-grid opacity-20 dark:opacity-20 z-[-1]"></div>
-      <div className="laser-base animate-pulse-slow"></div>
-      <div className="laser-beam animate-beam-rise"></div>
 
       <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 lg:px-8 mt-[-10vh]">
         <div className="inline-flex items-center px-3 py-1 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-medium mb-8 backdrop-blur-sm">
@@ -24,9 +22,9 @@ export const Header = () => {
           of the world's most popular open-source repositories.
         </p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-5">
           <a
-            className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-pink-600 md:text-lg shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_30px_rgba(236,72,153,0.7)] transition-all duration-300"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-pink-600 md:text-lg shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_30px_rgba(236,72,153,0.7)] transition-all duration-300"
             href="#explore"
           >
             Start Exploring
@@ -40,7 +38,7 @@ export const Header = () => {
           </a>
         </div>
 
-        <div className="mt-16 mx-auto max-w-3xl transform hover:scale-[1.01] transition-transform duration-500">
+        <div className="mt-40 mx-auto max-w-3xl transform hover:scale-[1.01] transition-transform duration-500">
           <div className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#0f172a]/80 shadow-2xl overflow-hidden text-left backdrop-blur-sm">
             <div className="flex items-center px-4 py-2 bg-slate-100 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-700">
               <div className="flex space-x-2 mr-4">

@@ -21,7 +21,7 @@ export const Footer = () => {
           </a>
         </div>
         <div className="text-xs text-slate-500 dark:text-slate-600 transition-colors">
-          © 2023 Internals Project. All rights reserved.
+          © 2026 Internals Project. All rights reserved.
         </div>
       </div>
     </footer>
