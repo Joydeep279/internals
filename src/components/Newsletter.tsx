@@ -13,14 +13,14 @@ export const Newsletter = () => {
           Join thousands of engineers who are mastering their tools by
           understanding how they work.
         </p>
-        <form className="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+        <form className="max-w-md mx-auto flex flex-col sm:flex-row gap-2.5">
           <input
-            className="flex-1 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900/80 text-slate-900 dark:text-white py-3 px-4 focus:ring-primary focus:border-primary placeholder-slate-500 dark:placeholder-slate-400 transition-colors"
+            className="flex-1 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900/80 text-slate-900 dark:text-white p-2.5 focus:ring-primary focus:border-primary placeholder-slate-500 dark:placeholder-slate-400 transition-colors"
             placeholder="Enter your email"
             type="email"
           />
           <button
-            className="bg-primary hover:bg-pink-600 text-white font-medium py-3 px-6 rounded-md transition-all shadow-[0_0_20px_rgba(236,72,153,0.4)] hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]"
+            className="bg-primary hover:bg-pink-600 text-white font-medium py-2 rounded-md transition-all shadow-[0_0_20px_rgba(236,72,153,0.4)] hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]"
             type="button"
           >
             Get Weekly Deep Dives
