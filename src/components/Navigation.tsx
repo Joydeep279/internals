@@ -33,7 +33,7 @@ export const Navigation = () => {
               className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
-              Blog
+             Engineering Blogs
             </a>
 
             <div className="relative">

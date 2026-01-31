@@ -22,7 +22,7 @@ export const Header = () => {
           of the world's most popular open-source repositories.
         </p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-5">
+        <div className="flex flex-col sm:flex-row justify-center gap-40">
           <a
             className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-pink-600 md:text-lg shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_30px_rgba(236,72,153,0.7)] transition-all duration-300"
             href="#explore"
@@ -32,7 +32,7 @@ export const Header = () => {
           </a>
           <a
             className="inline-flex items-center justify-center px-8 py-3 border border-slate-300 dark:border-slate-700 text-base font-medium rounded-md text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-800/50 hover:bg-slate-50 dark:hover:bg-slate-700 md:text-lg transition-all backdrop-blur-sm"
-            href="#"
+           href="https://github.com/Joydeep279/internals" target="_blank"
           >
             View on GitHub
           </a>
