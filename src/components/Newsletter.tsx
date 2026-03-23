@@ -21,8 +21,7 @@ export const Newsletter = () => {
           />
           <button
             className="bg-primary hover:bg-pink-600 text-white font-medium py-2 rounded-md transition-all shadow-[0_0_20px_rgba(236,72,153,0.4)] hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]"
-            type="button"
-          >
+            type="button">
             Get Weekly Deep Dives
           </button>
         </form>
@@ -32,4 +31,5 @@ export const Newsletter = () => {
       </div>
     </section>
   );
+  
 };

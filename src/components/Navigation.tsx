@@ -8,9 +8,7 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer group">
-            <span className="material-icons text-primary text-3xl group-hover:animate-pulse">
-              terminal
-            </span>
+            <img className='w-8 h-8' src="../../public/007_Spectre_Pink.png"/>
             <span className="font-bold text-xl tracking-tight text-slate-900 dark:text-white transition-colors">
               Internals
             </span>

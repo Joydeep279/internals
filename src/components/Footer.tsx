@@ -3,8 +3,11 @@ export const Footer = () => {
     <footer className="border-t border-slate-200 dark:border-white/5 bg-white dark:bg-[#020617] py-12 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
-          <span className="material-icons text-slate-400 dark:text-slate-500 text-xl transition-colors">terminal</span>
-          <span className="font-bold text-slate-700 dark:text-slate-200 transition-colors">Internals</span>
+          <img className="w-5 h-5" src="../../public/007_Spectre_Pink.png" />
+
+          <span className="font-bold text-slate-700 dark:text-slate-200 transition-colors">
+            Internals
+          </span>
         </div>
         <div className="flex gap-8 text-sm text-slate-600 dark:text-slate-400">
           <a className="hover:text-primary transition-colors" href="#">

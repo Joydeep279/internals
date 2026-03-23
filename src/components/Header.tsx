@@ -22,7 +22,7 @@ export const Header = () => {
           of the world's most popular open-source repositories.
         </p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-40">
+        <div className="flex flex-col sm:flex-row justify-center gap-10">
           <a
             className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-pink-600 md:text-lg shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_30px_rgba(236,72,153,0.7)] transition-all duration-300 hover:text-white"
             href="#explore"
@@ -38,7 +38,7 @@ export const Header = () => {
           </a>
         </div>
 
-        <div className="mt-40 mx-auto max-w-3xl transform hover:scale-[1.01] transition-transform duration-500">
+        <div className="mt-10 mx-auto max-w-3xl transform hover:scale-[1.01] transition-transform duration-500">
           <div className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#0f172a]/80 shadow-2xl overflow-hidden text-left backdrop-blur-sm">
             <div className="flex items-center px-4 py-2 bg-slate-100 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-700">
               <div className="flex space-x-2 mr-4">
